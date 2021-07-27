@@ -5,6 +5,7 @@ import session7.account.BankAccount;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.WeakHashMap;
 
 public class Bank {
     private String name;
@@ -37,14 +38,18 @@ public class Bank {
 //        return null;
     }
 
-    public void printAccounts(){
-        for (Long key : accounts.keySet()){
+    public void printAccounts() {
+        for (Long key : accounts.keySet()) {
             BankAccount bankAccount = accounts.get(key);
-            System.out.println(bankAccount+" "+LogManager.getLogs(bankAccount));
+            System.out.println(bankAccount + " " + LogManager.getLogs(bankAccount));
         }
 //        for (BankAccount account : accounts) {
 //            System.out.println(account);
 //        }
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
