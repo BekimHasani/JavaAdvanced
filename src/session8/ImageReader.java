@@ -6,6 +6,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class ImageReader {
 
@@ -24,7 +26,7 @@ public class ImageReader {
         String path = "D:/image.jfif";
         try {
             displayImage(path);
-        } catch (IOException ioe){
+        } catch (IOException ioe) {
             ioe.printStackTrace();
         }
     }
