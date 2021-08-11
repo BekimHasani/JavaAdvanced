@@ -2,7 +2,7 @@ package exercises.ushtrimi2.services;
 
 public class Cable extends Service {
 
-    public Cable(String id, String subscriptionId) {
+    public Cable(long id, long subscriptionId) {
         super(id, subscriptionId);
     }
 }

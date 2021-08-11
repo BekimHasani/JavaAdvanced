@@ -26,7 +26,7 @@ public class BankAccountIO {
         this.bankAccountInterface = bankAccountInterface;
         scanner = new Scanner(System.in);
 //        logger = new FileLogger();
-        logger = LoggerFactory.getLogger("IN_MEMORY1234");
+        logger = LoggerFactory.getLogger("IN_MEMORY");
     }
 
     public void doStart() throws Exception {

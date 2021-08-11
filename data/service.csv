@@ -1,0 +1,7 @@
+subscription_id,service_id,service_type
+3000,4000,Voice
+3000,4001,SMS
+3000,4002,Internet
+3001,4003,Voice
+3001,4004,Internet
+3002,4005,Cable

@@ -1,34 +1,54 @@
 package exercises.ushtrimi2.subscription;
 
+import exercises.ushtrimi2.entity.Contact;
+import exercises.ushtrimi2.services.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Subscription {
 
-    private String contractId;
-    private String subscriptionId;
+    private long id;
+    private Contact contact;
+    private List<Service> services;
+    private long contractId;
 
-    public Subscription( String contactId, String subscriptionId) {
-        this.contractId = contactId;
-        this.subscriptionId = subscriptionId;
+    public Subscription(long id, long contractId) {
+        this.id = id;
+        this.services = new ArrayList<>();
+        this.contractId = contractId;
     }
 
-    public String getContractId() {
+    public long getId() {
+        return id;
+    }
+
+    public Contact getContact() {
+        return contact;
+    }
+
+    public List<Service> getServices() {
+        return services;
+    }
+
+    public void setContact(Contact contact) {
+        this.contact = contact;
+    }
+
+    public void addService(Service service) {
+        services.add(service);
+    }
+
+    public long getContractId() {
         return contractId;
-    }
-
-    public void setContractId(String contactId) {
-        this.contractId = contactId;
-    }
-
-    public String getSubscriptionId() {
-        return subscriptionId;
-    }
-
-    public void setSubscriptionId(String subscriptionId) {
-        this.subscriptionId = subscriptionId;
     }
 
     @Override
     public String toString() {
-        return String.format("(Subscription) (%s):%s ", getClass().getSimpleName(), subscriptionId);
+        String toString = String.format("Subscription (%s) id: %d, Contact: %s", getClass().getSimpleName(), id, contact);
+        for (Service service : services) {
+            toString += String.format("%n\t\t\t%s", service);
+        }
+        return toString;
     }
 }

@@ -2,24 +2,27 @@ package exercises.ushtrimi2.entity;
 
 public class Contact {
 
-    private String contactId;
+    private long id;
     private String firstName;
     private String lastName;
     private String phoneNumber;
+//    private String email;
+//    private String address;
 
-    public Contact(String contactId, String firstName, String lastName, String phoneNumber) {
-        this.contactId = contactId;
+
+    public Contact(long id, String firstName, String lastName, String phoneNumber) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
 
-    public String getId() {
-        return contactId;
+    public long getId() {
+        return id;
     }
 
-    public void setReferenceId(String id) {
-        this.contactId = id;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -46,9 +49,24 @@ public class Contact {
         this.phoneNumber = phoneNumber;
     }
 
+//    public String getEmail() {
+//        return email;
+//    }
+//
+//    public void setEmail(String email) {
+//        this.email = email;
+//    }
+//
+//    public String getAddress() {
+//        return address;
+//    }
+//
+//    public void setAddress(String address) {
+//        this.address = address;
+//    }
 
     @Override
     public String toString() {
-        return "(Contact) "+firstName + " " + lastName;
+        return firstName + " " + lastName;
     }
 }
