@@ -8,7 +8,6 @@ import exercises.ushtrimi2.services.Service;
 import exercises.ushtrimi2.subscription.Subscription;
 
 import java.util.List;
-import java.util.concurrent.CompletionService;
 
 public class Telecom {
 
