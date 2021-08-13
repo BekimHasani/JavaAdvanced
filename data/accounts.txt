@@ -1,0 +1,7 @@
+C:12345:Filani:500
+C:54321:Filanja:1000
+C:BAFF:Filani:500
+D:BAFF:Filani:500
+S:12456
+S:12457:Dema:5.5
+C:789:Filani:500
