@@ -10,11 +10,11 @@ import java.util.List;
 
 public final class DataIO {
 
-    private static final String CONTACT_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\contact.csv";
-    private static final String CONTRACT_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\contract.csv";
-    private static final String CUSTOMER_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\customer.csv";
-    private static final String SERVICE_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\service.csv";
-    private static final String SUBSCRIPTION_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\subscription.csv";
+    private static final String CONTACT_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\contact.csv";
+    private static final String CONTRACT_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\contract.csv";
+    private static final String CUSTOMER_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\customer.csv";
+    private static final String SERVICE_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\service.csv";
+    private static final String SUBSCRIPTION_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\subscription.csv";
 
     protected static List<Contact> contacts;
     protected static List<Contract> contracts;
@@ -24,8 +24,8 @@ public final class DataIO {
 
 
     static{
-        services = BuilderFactory.createServices(SERVICE_FILE);
         contacts = BuilderFactory.createContacts(CONTACT_FILE);
+        services = BuilderFactory.createServices(SERVICE_FILE);
         subscriptions = BuilderFactory.createSubscription(SUBSCRIPTION_FILE);
         contracts = BuilderFactory.createContract(CONTRACT_FILE);
         customers = BuilderFactory.createCustomers(CUSTOMER_FILE);
@@ -35,19 +35,4 @@ public final class DataIO {
         return subscriptions;
     }
 
-    public static List<Contact> getContacts() {
-        return contacts;
-    }
-
-    public static List<Contract> getContracts() {
-        return contracts;
-    }
-
-    public static List<Customer> getCustomers() {
-        return customers;
-    }
-
-    public static List<Service> getServices() {
-        return services;
-    }
 }

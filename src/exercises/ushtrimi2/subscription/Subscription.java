@@ -45,7 +45,7 @@ public abstract class Subscription {
 
     @Override
     public String toString() {
-        String toString = String.format("Subscription (%s) id: %d, Contact: %s", getClass().getSimpleName(), id, contact);
+        String toString = String.format("(Subscription) %s:[%d], Contact: %s", getClass().getSimpleName(), id, contact);
         for (Service service : services) {
             toString += String.format("%n\t\t\t%s", service);
         }

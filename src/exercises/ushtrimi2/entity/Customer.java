@@ -1,5 +1,6 @@
 package exercises.ushtrimi2.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
@@ -13,6 +14,7 @@ public class Customer {
         this.id = id;
         this.contact = contact;
         this.name = name;
+        this.contracts = new ArrayList<>();
     }
 
     public long getId() {
@@ -37,7 +39,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        String toString = String.format("Customer id: %d, Contact: %s", id, contact);
+        String toString = String.format("(Customer) %s: [%d] (Contact) %s", name, id, contact);
         for (Contract contract : contracts) {
             toString += String.format("%n\t%s", contract);
         }

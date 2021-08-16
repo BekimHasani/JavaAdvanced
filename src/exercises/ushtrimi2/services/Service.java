@@ -20,6 +20,6 @@ public abstract class Service {
 
     @Override
     public String toString() {
-        return "Service: " + getClass().getSimpleName();
+        return String.format("(Service)[%d] - %s", getId(), getClass().getSimpleName());
     }
 }

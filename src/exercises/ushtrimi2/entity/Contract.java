@@ -43,7 +43,7 @@ public class Contract {
 
     @Override
     public String toString() {
-        String toString = String.format("Contract id: %d, Contact: %s", id, contact);
+        String toString = String.format("(Contract) %s: [%d], (Contact): %s", name, id, contact);
         for (Subscription subscription : subscriptions) {
             toString += String.format("%n\t\t%s", subscription);
         }

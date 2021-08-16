@@ -2,7 +2,7 @@ package exercises.ushtrimi2.entity;
 
 public class Contact {
 
-    private long id;
+    private long referenceId;
     private String firstName;
     private String lastName;
     private String phoneNumber;
@@ -11,18 +11,18 @@ public class Contact {
 
 
     public Contact(long id, String firstName, String lastName, String phoneNumber) {
-        this.id = id;
+        this.referenceId = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
 
-    public long getId() {
-        return id;
+    public long getReferenceId() {
+        return referenceId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setReferenceId(long id) {
+        this.referenceId = id;
     }
 
     public String getFirstName() {

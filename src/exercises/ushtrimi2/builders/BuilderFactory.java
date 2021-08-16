@@ -28,11 +28,11 @@ public class BuilderFactory {
             rows.remove(0);
             for (String row: rows) {
                 String[] values = row.split(",");
-                long contactId = Long.parseLong(values[0]);
+                long referenceId = Long.parseLong(values[0]);
                 String name = values[1];
                 String lastName = values[2];
                 String phoneNumber = values[3];
-                Contact contact = new Contact(contactId, name, lastName, phoneNumber);
+                Contact contact = new Contact(referenceId, name, lastName, phoneNumber);
                 contacts.add(contact);
             }
         } catch (IOException e) {
@@ -54,19 +54,35 @@ public class BuilderFactory {
                 String type = values[2].toUpperCase();
                 switch (type) {
                     case "MOBILE":{
-                        subscription = new Mobile(contractId, subscriptionId);
+                        subscription = new Mobile(subscriptionId, contractId);
                         break;
                     }
                     case "FIX" : {
-                        subscription = new Fix(contractId, subscriptionId);
+                        subscription = new Fix(subscriptionId, contractId);
                         break;
                     }
                 }
+
+/*
+                subscription.addService(
+                        DataIO.services.stream().sorted()
+                                .filter(service -> service.getSubscriptionId() == subscriptionId).;
+*/
+
                 for (Service service : DataIO.services){
                     if (service.getSubscriptionId() == subscriptionId){
                         subscription.addService(service);
+                       System.out.println(service);
                     }
                 }
+
+                subscription.setContact(
+                        DataIO.contacts.stream()
+                                .filter(con -> con.getReferenceId() == subscriptionId)
+                                .findAny()
+                                .get());
+
+                subscriptions.add(subscription);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -84,12 +100,19 @@ public class BuilderFactory {
                 long customerId = Long.parseLong(values[0]);
                 String name = values[1];
                 Contact contact = getCustomerContact(customerId);
-                customers.add(new Customer(customerId, contact, name));
+                Customer customer = new Customer(customerId, contact, name);
+
+                customer.addContract(
+                        DataIO.contracts.stream().
+                                filter( contract -> contract.getCostumerId() == customerId)
+                                .findAny()
+                                .get());
+                customers.add(customer);
             }
         } catch (IOException | NotFound e) {
             e.printStackTrace();
         }
-        return null;
+        return customers;
     }
 
     public static List<Contract> createContract(String path){
@@ -103,11 +126,13 @@ public class BuilderFactory {
                 long contractId = Long.parseLong(values[1]);
                 String name = values[2];
                 Contract contract = new Contract(contractId, name, customerId);
-                for (Subscription subscription : DataIO.subscriptions){
-                    if (subscription.getContractId()==contractId){
-                        contract.add(subscription);
-                    }
-                }
+
+                contract.add(
+                        DataIO.subscriptions.stream().
+                                filter(subscription -> subscription.getContractId() == contractId)
+                                .findAny()
+                                .get()
+                );
                 contracts.add(contract);
             }
         } catch (IOException e) {
@@ -128,16 +153,16 @@ public class BuilderFactory {
                 String type = values[2].toUpperCase();
                 switch (type){
                     case "VOICE":
-                        services.add(new Voice(serviceId, subscriptionId));
+                        services.add(new Voice(subscriptionId, serviceId));
                         break;
                     case "SMS" :
-                        services.add(new SMS(serviceId, subscriptionId));
+                        services.add(new SMS(subscriptionId, serviceId));
                         break;
                     case "CABLE" :
-                        services.add(new Cable(serviceId, subscriptionId));
+                        services.add(new Cable(subscriptionId, serviceId));
                         break;
                     case "INTERNET" :
-                        services.add(new Internet(serviceId, subscriptionId));
+                        services.add(new Internet(subscriptionId, serviceId));
                         break;
                 }
             }
@@ -152,5 +177,5 @@ public class BuilderFactory {
         List<Contract> contracts = DataIO.contracts;
         Optional<Contract> contract = contracts.stream().filter(c -> c.getCostumerId()==customerId).findAny();
         return contract.orElseThrow(NotFound::new).getContact();
-    }
+  }
 }
