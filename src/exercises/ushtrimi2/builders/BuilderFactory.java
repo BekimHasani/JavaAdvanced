@@ -61,20 +61,21 @@ public class BuilderFactory {
                     }
                 }
 
-/*
-                subscription.addService(
-                        DataIO.services.stream().sorted()
-                                .filter(service -> service.getSubscriptionId() == subscriptionId).;
-*/
 
-                for (Service service : DataIO.services){
-                    if (service.getSubscriptionId() == subscriptionId){
-                        subscription.addService(service);
-                       System.out.println(service);
-                    }
-                }
+                Subscription finalSubscription = subscription;
+                DataIO.services.stream()
+                                .forEach(service -> {
+                                    if(service.getSubscriptionId() == subscriptionId)
+                                        finalSubscription.addService(service);
+                                });
 
-                subscription.setContact(
+//                for (Service service : DataIO.services){
+//                    if (service.getSubscriptionId() == subscriptionId){
+//                        subscription.addService(service);
+//                    }
+//                }
+
+                finalSubscription.setContact(
                         DataIO.contacts.stream()
                                 .filter(con -> con.getReferenceId() == subscriptionId)
                                 .findAny()

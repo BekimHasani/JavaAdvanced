@@ -10,11 +10,11 @@ import java.util.List;
 
 public final class DataIO {
 
-    private static final String CONTACT_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\contact.csv";
-    private static final String CONTRACT_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\contract.csv";
-    private static final String CUSTOMER_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\customer.csv";
-    private static final String SERVICE_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\service.csv";
-    private static final String SUBSCRIPTION_FILE = "C:\\Users\\lenovo\\IdeaProjects\\JavaAdvanced\\data\\subscription.csv";
+    private static final String CONTACT_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\contact.csv";
+    private static final String CONTRACT_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\contract.csv";
+    private static final String CUSTOMER_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\customer.csv";
+    private static final String SERVICE_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\service.csv";
+    private static final String SUBSCRIPTION_FILE = "C:\\Users\\BekimH\\Documents\\JavaAdvanced\\data\\subscription.csv";
 
     protected static List<Contact> contacts;
     protected static List<Contract> contracts;
