@@ -62,20 +62,13 @@ public class BuilderFactory {
                 }
 
 
-                Subscription finalSubscription = subscription;
-                DataIO.services.stream()
-                                .forEach(service -> {
-                                    if(service.getSubscriptionId() == subscriptionId)
-                                        finalSubscription.addService(service);
-                                });
+                for (Service service : DataIO.services){
+                    if (service.getSubscriptionId() == subscriptionId){
+                        subscription.addService(service);
+                    }
+                }
 
-//                for (Service service : DataIO.services){
-//                    if (service.getSubscriptionId() == subscriptionId){
-//                        subscription.addService(service);
-//                    }
-//                }
-
-                finalSubscription.setContact(
+                subscription.setContact(
                         DataIO.contacts.stream()
                                 .filter(con -> con.getReferenceId() == subscriptionId)
                                 .findAny()
