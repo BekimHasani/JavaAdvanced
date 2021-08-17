@@ -8,13 +8,11 @@ import exercises.ushtrimi2.services.*;
 import exercises.ushtrimi2.subscription.Fix;
 import exercises.ushtrimi2.subscription.Mobile;
 import exercises.ushtrimi2.subscription.Subscription;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -109,7 +107,7 @@ public class BuilderFactory {
                                 .get());
                 customers.add(customer);
             }
-        } catch (IOException | NotFound e) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
         return customers;
@@ -173,9 +171,9 @@ public class BuilderFactory {
     }
 
 
-    private static Contact getCustomerContact(long customerId) throws NotFound {
+    private static Contact getCustomerContact(long customerId) throws ClassNotFoundException {
         List<Contract> contracts = DataIO.contracts;
         Optional<Contract> contract = contracts.stream().filter(c -> c.getCostumerId()==customerId).findAny();
-        return contract.orElseThrow(NotFound::new).getContact();
-  }
+        return contract.orElseThrow(ClassNotFoundException::new).getContact();
+    }
 }

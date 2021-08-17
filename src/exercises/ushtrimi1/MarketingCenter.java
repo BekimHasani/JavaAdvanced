@@ -1,7 +1,5 @@
 package exercises.ushtrimi1;
 
-import sun.awt.image.ImageWatched;
-
 import java.time.LocalDateTime;
 
 public class MarketingCenter {
@@ -15,6 +13,7 @@ public class MarketingCenter {
     private static Policy businessHours = new BusinessHoursPolicy();
 
     public static void main(String[] args) {
+
         Contact[] contacts = {
                 new Contact("045123123", true),
                 new Contact("044123123", false),

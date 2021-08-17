@@ -1,22 +1,20 @@
 package session14;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class StreamTest {
     public static void main(String[] args) {
+
         List<BankAccount> accounts = new ArrayList<>(List.of(
                 new BankAccount(123546L, "Filani", 500),
                 new BankAccount(654321L, "Filanja", 1000),
                 new BankAccount(654789L, "Dema", 150),
                 new BankAccount(123789L, "John", 200)
         ));
-
         final Set<BankAccount> filteredBankAccounts = accounts.stream()
                 .filter(bankAccount -> bankAccount.getBalance() >= 200)
                 .filter(bankAccount -> bankAccount.getName().startsWith("F"))
