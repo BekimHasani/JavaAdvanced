@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be3fb286-2895-4c3f-b922-97ccf434612a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/builders/ConcurrentDataIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi3/ConcurrentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi3/DummyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/DeadLockTest$ThreadDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/DeadLockTest$ThreadDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/DeadLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/ExecutorServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/ScheduledExecutorServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/ThreadDebug.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/ConsumerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/LockBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/MultiConsumerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/MultiProducerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/MultiProducersConsumer$ProducerStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/MultiProducersConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/ProducerConsumerExecutorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/ProducerConsumerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/ProducerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session17/producerconsumer/SynchronizeBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ushtrimi2/builders/ConcurrentDataIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ushtrimi3/ConcurrentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ushtrimi3/DummyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/DeadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/ExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/ScheduledExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/ThreadDebug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/ConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/LockBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/MultiConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/MultiProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/MultiProducersConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/ProducerConsumerExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/ProducerConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session17/producerconsumer/SynchronizeBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/BusinessHoursPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/BusinessHoursPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central$Ipko.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central$Ipko.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central$Vala.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central$Vala.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Central.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/DoNotDistrubFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/DoNotDistrubFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/EndsWithFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/EndsWithFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Ipko.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Ipko.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/MarketingCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/MarketingCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Policy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/Policy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/RestictedDaysPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi1/RestictedDaysPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/Telecom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/Telecom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/builders/BuilderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/builders/BuilderFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/builders/DataIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/builders/DataIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Contract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Cable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Cable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Internet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Internet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/SMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/SMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Voice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/services/Voice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Fix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Fix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Mobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/exercises/ushtrimi2/subscription/Subscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/Currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/CurrentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/CurrentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session1/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/Atm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/Atm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankAccountIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankAccountIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankAccountInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankAccountInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/BankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/CurrentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/CurrentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/account/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/exception/BankException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/exception/BankException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/FileLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/FileLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/InMemoryLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/InMemoryLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/Loggable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/Loggable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/LoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/log/LoggerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/DepositTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/DepositTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/TransferTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/TransferTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/WithdrawTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/transaction/WithdrawTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session10/bank/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Closure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Closure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/ExceptionHandlingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/ExceptionHandlingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloEnglish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloEnglish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/HelloTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/RunnableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/RunnableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/StringLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/StringLambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/StringToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/StringToInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/ThisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session13/ThisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccounTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccounTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccountParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/BankAccountParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/ForEach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/ForEach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/MethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/MethodReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session14/StreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/RunnableWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/RunnableWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SimpleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SimpleThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SimpleThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SimpleThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SystemThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/SystemThreads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadDebug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadWorkerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/ThreadWorkerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ConsumerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ConsumerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ProducerConsumerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ProducerConsumerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ProducerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/ProducerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/SynchronizeBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session16/producerconsumer/SynchronizeBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Quadliteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Quadliteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/ShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session2/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/BlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/BlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Calculator$1Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Calculator$1Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Counter$CounterInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Counter$CounterInner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/CounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/CounterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Out$In.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Out$In.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Out.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Outter$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Outter$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Outter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/Outter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTestOther$InnerTestOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTestOther$InnerTestOther.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTestOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session3/nested/OutterTestOther.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/PrintTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/PrintTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Printable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Printable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Shtypet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session4/Shtypet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/DBException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/DBException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/DBServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/DBServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/clientserver/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/PopException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/PopException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/PushException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/PushException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/StackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/StackException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session5/stack/StackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/BankException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/BankException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/BankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/LogManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/LogManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/CurrentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/CurrentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/account/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/converter/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/converter/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/converter/Currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/DepositTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/DepositTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/Loggable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/Loggable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/TransferTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/TransferTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/WithdrawTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session7/transaction/WithdrawTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FileOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/Folder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/Folder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/Folder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/Folder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FolderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/FolderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/ImageReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session8/ImageReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/Telecom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/Telecom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Contract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/Cable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/Cable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/SMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/SMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/services/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Fix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Fix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Mobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/session9/subscription/Subscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/ushtrimi2/Telecom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/ushtrimi2/Telecom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/ushtrimi2/builders/BuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/ushtrimi2/builders/BuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session16/ThreadDebug.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wwORGlzxvPuRoesGM4nD4MKbYD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.13908207" />
+    <property name="project.structure.side.proportion" value="0.16611296" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="session17" />
+      <recent name="session17.deadlock" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises.ushtrimi2.builders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Telecom">
+    <configuration name="ConcurrentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ushtrimi3.ConcurrentApplication" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.ushtrimi3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session17.ExecutorServiceTest" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiProducersConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session17.producerconsumer.MultiProducersConsumer" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session17.producerconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumerExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session17.producerconsumer.ProducerConsumerExecutorTest" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session17.producerconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Telecom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ushtrimi2.Telecom" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.ushtrimi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProducerConsumerExecutorTest" />
+      <item itemvalue="Application.MultiProducersConsumer" />
+      <item itemvalue="Application.ExecutorServiceTest" />
+      <item itemvalue="Application.ConcurrentApplication" />
+      <item itemvalue="Application.Telecom" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Telecom" />
+        <item itemvalue="Application.ConcurrentApplication" />
+        <item itemvalue="Application.ExecutorServiceTest" />
+        <item itemvalue="Application.MultiProducersConsumer" />
+        <item itemvalue="Application.ProducerConsumerExecutorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be3fb286-2895-4c3f-b922-97ccf434612a" name="Default Changelist" comment="" />
+      <created>1629366177943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629366177943</updated>
+      <workItem from="1629366180605" duration="21459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/session17/DeadLockTest.java</url>
+          <line>6</line>
+          <properties class="session17.deadlock.DeadLockTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

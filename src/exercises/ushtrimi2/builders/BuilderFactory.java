@@ -22,6 +22,7 @@ public class BuilderFactory {
     public static List<Contact> createContacts(String path){
         List<Contact> contacts = new ArrayList<>();
         try (LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(path))) {
+            Thread.sleep(1000);
             List<String> rows = lineNumberReader.lines().collect(Collectors.toList());
             rows.remove(0);
             for (String row: rows) {
@@ -33,7 +34,7 @@ public class BuilderFactory {
                 Contact contact = new Contact(referenceId, name, lastName, phoneNumber);
                 contacts.add(contact);
             }
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
         return contacts;
@@ -42,6 +43,7 @@ public class BuilderFactory {
     public static List<Subscription> createSubscription(String path){
         List<Subscription> subscriptions = new ArrayList<>();
         try (LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(path))) {
+            Thread.sleep(3000);
             List<String> rows = lineNumberReader.lines().collect(Collectors.toList());
             rows.remove(0);
             for (String row: rows) {
@@ -76,7 +78,7 @@ public class BuilderFactory {
 
                 subscriptions.add(subscription);
             }
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
         return subscriptions;
@@ -85,6 +87,7 @@ public class BuilderFactory {
     public static List<Customer> createCustomers(String path){
         List<Customer> customers = new ArrayList<>();
         try (LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(path))) {
+            Thread.sleep(3000);
             List<String> rows = lineNumberReader.lines().collect(Collectors.toList());
             rows.remove(0);
             for (String row: rows) {
@@ -101,7 +104,7 @@ public class BuilderFactory {
                                 .get());
                 customers.add(customer);
             }
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException | InterruptedException e) {
             e.printStackTrace();
         }
         return customers;
@@ -110,6 +113,7 @@ public class BuilderFactory {
     public static List<Contract> createContract(String path){
         List<Contract> contracts = new ArrayList<>();
         try (LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(path))) {
+            Thread.sleep(3000);
             List<String> rows = lineNumberReader.lines().collect(Collectors.toList());
             rows.remove(0);
             for (String row: rows) {
@@ -127,7 +131,7 @@ public class BuilderFactory {
                 );
                 contracts.add(contract);
             }
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
         return contracts;
@@ -136,6 +140,7 @@ public class BuilderFactory {
     public static List<Service> createServices(String path){
         List<Service> services = new ArrayList<>();
         try (LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(path))) {
+            Thread.sleep(3000);
             List<String> rows = lineNumberReader.lines().collect(Collectors.toList());
             rows.remove(0);
             for (String row: rows) {
@@ -158,7 +163,7 @@ public class BuilderFactory {
                         break;
                 }
             }
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
         return services;
