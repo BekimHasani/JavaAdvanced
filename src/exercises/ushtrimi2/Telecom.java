@@ -1,7 +1,5 @@
 package exercises.ushtrimi2;
 
-import exercises.ushtrimi2.builders.ConcurrentDataIO;
-
 import exercises.ushtrimi2.builders.DataIO;
 import exercises.ushtrimi2.subscription.Subscription;
 
@@ -19,12 +17,5 @@ public class Telecom {
         System.out.printf("Duration with sequent programing : %d sec %n", TimeUnit.NANOSECONDS.toSeconds(end-start));
         subscriptions.forEach(System.out::println);
 
-        System.out.println("-------------------------------------");
-
-        start = System.nanoTime();
-        List<Subscription> subscriptions2 = ConcurrentDataIO.getSubscriptions();
-        end = System.nanoTime();
-        System.out.printf("Duration with concurrent programing : %d sec %n", TimeUnit.NANOSECONDS.toSeconds(end-start));
-        subscriptions2.forEach(System.out::println);
     }
 }
